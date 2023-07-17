@@ -296,13 +296,13 @@ function bigOrSmall (arr){
        answers[i] = "small"
        //console.log(answers)
     }
-    arrayEvaluator = [answers]
+    arrayEvaluator = answers
   
   }
   console.log (arrayEvaluator)
 }
 
-let g= bigOrSmall([400,34,45,200])
+let g= bigOrSmall(bigOrSmallArray)
 
 ////////////////// PROBLEM 16 ////////////////////
 let contestants = ['Katniss', 'Peeta', 'Fox-face', 'Glimmer', 'Cato', 'Rue', 'Thresh', 'Clove', 'Marvel']
@@ -323,7 +323,7 @@ function theEliminator (contestants,loser){
   }
   console.log(contestants)
 }
-theEliminator(["apple","red","hi"],"hi")
+theEliminator(contestants,loser)
 
 ////////////////// PROBLEM 17 ////////////////////
 let sampleString = "Hi, my name is Kylo."
